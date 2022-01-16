@@ -1,0 +1,12 @@
+DAY 2 
+1. Configure Kali linux Debian 64bit in VM VirtualBox
+2. run commands.
+
+> theHarvester -d <domain/website name> -b <database resource name>
+> theHarvester -d nsakcet.ac.in -b all [//displays all domains registered ]
+> host -t mx microsoft.com [//no. of emails registered]
+> host -t ns nptel.ac.in [//Name space]
+> host -l nptel.ac.in ns-cloud-a4.googledomains.com [//check domain name details]
+> nmap -sT -T4 -p 1-1000 192.168.1.28 [//scan services from port 1 to 1000 in time T4]
+> nmap -T4 -sT -p 53 -Pn 192.168.1.28 -oN scanresult.txt [//normal file save, t4 time, port 53, Ignore pin]
+> nmap -T4 -sV -p 53 -Pn 192.168.1.28 [//service/version to know Operating system version info]

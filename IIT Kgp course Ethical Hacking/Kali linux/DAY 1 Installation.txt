@@ -1,0 +1,4 @@
+DAY 1 13-01-22
+1. Download and Install Oracle VM VirtualBox
+2. Download and Install Kali Linux Image
+
