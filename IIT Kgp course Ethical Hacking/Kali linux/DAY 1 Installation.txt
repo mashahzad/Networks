@@ -1,4 +1,6 @@
 DAY 1 13-01-22
+THIS IS DONE TO SET UP THE LAB ENVIRONMENT AND CONTINUE WITH THE COURSE PRACTICAL EXERCISES
+
 1. Download and Install Oracle VM VirtualBox
 2. Download and Install Kali Linux Image
 
