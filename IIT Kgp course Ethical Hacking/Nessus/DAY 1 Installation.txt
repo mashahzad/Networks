@@ -1,2 +1,4 @@
 DAY 1 
 1) Install Nessus from tenable.com
+
+2) Goto https://kali:8834/ to download plugins
