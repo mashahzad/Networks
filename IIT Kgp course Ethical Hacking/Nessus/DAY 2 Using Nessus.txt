@@ -1,0 +1,5 @@
+1) Goto https://kali:8834/ and login to your nessus account.
+
+2) Begin with the advanced scan service to scan for vulnerabilities for the given IP adresses
+
+3) Analyse the result for multiple host devices and vulnerabilities 
