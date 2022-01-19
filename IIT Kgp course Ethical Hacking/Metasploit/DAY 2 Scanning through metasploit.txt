@@ -1,0 +1,8 @@
+1) Run commant "msfconsole"
+
+2) Then you get some funny graphics and a description of the tool.
+
+3) commands:
+> Type "help" to display commands list
+> Type "show payloads" for list of payloads
+> Type "show exploits" to git list of exploits
