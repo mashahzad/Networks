@@ -1,0 +1,5 @@
+19-01-22
+1) "msfconsole" command in command prompt initiates the Metasploit Framework.
+
+2) Run commands:
+>
