@@ -4,3 +4,6 @@ DAY 2
 2) Begin with the Advanced Scan service to scan for vulnerabilities for the given IP adresses.
 
 3) Analyse the result for multiple host devices and vulnerabilities.
+
+note: For each session, first start/ run command to start Nessus in Command prompt, then login 
+at https://kali:8834/
