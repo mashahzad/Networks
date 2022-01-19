@@ -6,4 +6,4 @@
 > Type "help" to display commands list
 > Type "show payloads" for list of payloads
 > Type "show exploits" to git list of exploits
-> Type "search MS08-067" to get details about a particular exploit
+> Type "search MS08-067" to get details about a particular exploit(Microsoft) 
