@@ -10,3 +10,4 @@
 -----go to browser and enter ipaddress and hit enter-----
 -----Enter credentials for login page hit enter-----
 ----Switch back to terminal and analyse captured data including the credentials of victim user----
+----end-----
