@@ -4,3 +4,5 @@
 > airmon-ng start wlan0
 > airmon-ng check kill
 > airodump-ng wlan0mon
+> airodump-ng -w test -c 6 --bssid <router mac> [// write(w) file name: test, channel ID: 6,bssid: mac address]
+
