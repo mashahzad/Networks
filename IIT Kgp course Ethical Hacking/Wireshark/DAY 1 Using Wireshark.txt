@@ -4,3 +4,4 @@
 2) Select the network and click capture
 
 3) Trying various Wireshark environment tools:
+filter: type "tcp" in filter bar to see only tcp protocol packet data
