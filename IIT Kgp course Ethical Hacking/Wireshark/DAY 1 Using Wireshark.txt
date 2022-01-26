@@ -7,3 +7,4 @@
 filter: type "tcp" in filter bar to see only tcp protocol packet data
 Analyse menu: Important for better data visualization 
 Statistics menu: Capture file properties option for detailed hardware and packet info
+-------end---------
