@@ -1,4 +1,6 @@
 27/01/22
 1) Go to www.wireshark.org and download Wireshark tool
 
-2)
+2) Select the network and click capture
+
+3) Trying various Wireshark environment tools:
