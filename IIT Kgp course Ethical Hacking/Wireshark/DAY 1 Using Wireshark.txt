@@ -5,3 +5,4 @@
 
 3) Trying various Wireshark environment tools:
 filter: type "tcp" in filter bar to see only tcp protocol packet data
+Analyse menu: Important for better data visualization 
