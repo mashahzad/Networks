@@ -1,4 +1,4 @@
-1) Open metasploitable Virtual OS
+1) Open metasploitable2 Virtual OS
 
 2) To go to mysql :
 > mysql -u <username> -p <password>
