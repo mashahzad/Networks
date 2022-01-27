@@ -3,3 +3,9 @@
 2) To go to mysql :
 > mysql -u <username> -p <password>
 -----using mysql-----
+> show databases;
+> use owasp10;
+> show tables;
+> select * from <tablename>
+> select * from <tablename> where username="test" and password="12345";
+> 
